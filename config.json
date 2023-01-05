@@ -1,0 +1,28 @@
+{
+    "baseURL": "https://charitonidis.xyz",
+    "languageCode": "en-us",
+    "params": {
+        "seo": {
+            "title": "Portfolio of Charitonidis Efthimis - .NET Developer | Back-End Engineer | Front-End Engineer",
+            "description": "A portfolio of my work as a Back-End & Front-End engineer."
+        },
+        "navlinks": [
+            {
+                "name": "[home]", 
+                "url": "/"
+            },
+            {
+                "name": "[email]", 
+                "url": "mailto:hello@charitonidis.xyz"
+            },
+            {
+                "name": "[pgp]", 
+                "url": "/pgp"
+            },
+            {
+                "name": "[resume]", 
+                "url": "/resume"
+            }
+        ]
+    }
+}
