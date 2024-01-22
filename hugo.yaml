@@ -1,0 +1,47 @@
+baseURL: https://charitonidis.xyz/
+languageCode: en-us
+title: CH EF
+
+menu:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 1
+    - name: About
+      pageRef: /about
+      weight: 2
+    - name: Resume
+      pageRef: /docs/cv.pdf
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    
+        
+params:
+  theme:
+    # light | dark | system
+    default: dark
+    displayToggle: false
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: normal
+  navbar:
+    displayTitle: true
+    displayLogo: false
+    width: normal
+  footer:
+    displayPoweredBy: true
+    displayCopyright: true
+    width: normal
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  
