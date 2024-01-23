@@ -17,7 +17,7 @@ layout: hextra-home
 <div class="mb-12">
 {{<hextra/hero-subtitle>}}
   I specialize in transforming innovative ideas into reality, <br class="sm:block hidden" /> devising effective solutions to intricate problems
-  <br class="sm:block hidden" />
+  <br />
   <a class="text-sm" style="color: #4EA8DE;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" href="/about">More →</a>
 {{</hextra/hero-subtitle>}}
 </div>
