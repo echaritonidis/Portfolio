@@ -1,5 +1,5 @@
 ---
-title: Charitonidis
+title: Website of Charitonidis Efthimis - .NET Developer | Back-End Engineer | Front-End Engineer
 layout: hextra-home
 ---
 {{<hextra/hero-badge link="mailto:hello@charitonidis.xyz">}}
