@@ -17,6 +17,16 @@ menu:
       weight: 4
       params:
         type: search
+  sidebar:
+    - name: "Home"
+      pageRef: "/"
+      weight: 1
+    - name: "About"
+      pageRef: "/about"
+      weight: 2
+    - name: "Resume"
+      url: "/docs/cv.pdf"
+      weight: 3
     
         
 params:

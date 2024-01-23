@@ -1,6 +1,8 @@
 ---
 title: About me
 layout: hextra-home
+sidebar:
+  exclude: true
 ---
 
 <div class="mt-6 mb-6">
