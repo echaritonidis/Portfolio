@@ -2,6 +2,11 @@ baseURL: https://charitonidis.xyz/
 languageCode: en-us
 title: CH EF
 
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
+  
 menu:
   main:
     - name: Home
@@ -29,7 +34,7 @@ menu:
       weight: 3
         
 params:
-  description: "A website where you can find more about me"
+  description: "A dedicated website where you can explore my work, expertise, and projects as a programmer."
   theme:
     # light | dark | system
     default: dark
@@ -47,6 +52,11 @@ params:
     width: normal
 
 module:
+  hugoVersion:
+    extended: true
+    min: "0.112.0"
+
+  workspace: hugo.work
   imports:
     - path: github.com/imfing/hextra
 
